@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Adoption Form</title>
+    <style>
+    	body{
+    		font-family: "Algerian",cursive;
+    		background-color: lightblue;
+    		margin: 0;
+    	}
+    	h2{
+    		background-color: blue;
+    		text-align: center;
+    		padding: 10px;
+    		color: white;
+    	}
+    	td{
+    		padding: 7px;
+    	}
+    	input{
+    		height: 25px;
+    		border-radius: 10px;
+    		border: none;
+
+    	}
+    	input:focus,textarea:focus{
+    		outline: none;
+    		border: 3px solid forestgreen;
+    	}
+    	textarea{
+    		border-radius: 10px;
+    		border: none;
+    	}
+    </style>
+    
+</head>
+<body>
+	<h1 align="center">Pet Adoption Application Form</h1>
+	<form>
+		<div id="personal-information">
+			<h2>Personal Information</h2>
+			<table width="100%">
+				<tr>
+					<td>Name: </td>
+					<td>
+						<input type="text" placeholder="First Name" size="25">
+					</td>
+					<td>
+						<input type="text" placeholder="Middle Name" size="25">
+					</td>
+					<td>
+						<input type="text" placeholder="Last Name" size="25">
+					</td>
+				</tr>
+				<tr>
+					<td>Email Address :</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+				</tr>
+				<tr>
+					<td>Current Address :</td>
+					<td>
+						<textarea rows="5" cols="25"></textarea>
+					</td>
+					<td>Permant Address :</td>
+					<td>
+						<textarea rows="5" cols="25"></textarea>
+					</td>
+				</tr>
+   	<tr>
+					<td>Phone No :</td>
+					<td>
+						<input type="text" size="25">
+					</td>
+
+				</tr>
+				<tr>
+					<td>Mobile No :</td>
+					<td>
+						<input type="number">
+					</td>
+						<td>Date Of Birth :</td>
+						<td>
+							<input type="Date">
+						</td>
+					<tr>	
+						<td>Place Of Birth :</td>
+						<td>
+						<input type="text" size="25">
+						</td>
+					</tr>
+					<tr>
+						<td>	
+        	<label>Gender :</label>
+    		</td>
+    		<td>
+            <input type="radio"  name="Easy"> Male
+            <input type="radio"  name="Easy"> Female
+    		</td>
+        </tr>
+				
+    	<tr>
+    		<td>	
+        	<label>Types of Pet Intrested In:</label>
+    		</td>
+    		<td>
+            <input type="radio"  name="Easy"> Dog
+            <input type="radio"  name="Easy"> Cat
+        	<input type="radio"  name="Easy"> Bird
+            <input type="radio"  name="Easy"> Other
+    		</td>
+        </tr>    
+					<tr>
+						<td>Nationality :</td>
+						<td>
+							<select>
+								<option>Indian</option>
+								<option>American</option>
+								<option>China</option>
+								<option>Japan</option>
+								<option>Russia</option>
+								<option>Pakistan</option>
+								<option>SriLanka</option>
+								<option>Bangladesh</option>
+								<option>Nepal</option>
+								<option>Afganistan</option>
+								<option>Brazil</option>
+								<option>Australia</option>
+								<option>Dubai</option>
+								<option>Canada</option>
+								<option>Others</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>AdharCard Number :</td>
+						<td>
+							<input type="number">
+						</td>
+						<td>PAN Card Number :</td>
+						<td>
+							<input type="text" size="20">
+						</td>
+					</tr>   
+<tr>
+						<td>Current Pet Ownership Details :</td>
+						<td colspan="2">
+							<textarea rows="5" cols="50"></textarea>
+						</td>
+					</tr>
+			</table>
+		</div>
+</form>
+<div align="center">
+	<input style="background-color: aliceblue;"type="submit" value="Submit" height="25">
+</div>
+</body>
+</html>
